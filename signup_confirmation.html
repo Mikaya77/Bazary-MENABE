@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription réussie</title>
+    <link rel="stylesheet" type="text/css" href="Assets2/CSS/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="Assets2/CSS/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            color: #333;
+            animation: fadeIn 0.8s ease-in-out;
+        }
+        .navbar {
+            margin-bottom: 30px;
+        }
+        .jumbotron {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        p.lead {
+            font-size: 1.25rem;
+        }
+        hr.my-4 {
+            border-top: 1px solid #dee2e6;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+
+                Bazary
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+
+        <!-- Signup Confirmation Section -->
+        <div class="container mt-5">
+            <div class="jumbotron text-center">
+                <h1 class="display-4">Inscription réussie !</h1>
+                <p class="lead">Vous êtes maintenant inscrit sur notre site.</p>
+                <hr class="my-4">
+                <p>Connectez-vous dès maintenant pour commencer à explorer notre sélection de produits.</p>
+                <a class="btn btn-primary btn-lg" href="login.php" role="button">Se Connecter</a>
+            </div>
+        </div>
+
+        <br><br>
+        <!-- Footer -->
+        <footer class="footer text-center">
+            <p>&copy; 2024 Bazary MENABE. mikayavalimbavaka@gmail.com</p>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="Assets2/JS/all.min.js"></script>
+    <script type="text/javascript" src="Assets2/JS/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="Assets2/JS/popper.min.js"></script>
+    <script type="text/javascript" src="Assets2/JS/bootstrap.min.js"></script>
+</body>
+</html>
